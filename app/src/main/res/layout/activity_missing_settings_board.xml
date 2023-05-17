@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".activity.MissingSettingsBoardActivity">>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_back_piggy"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/btn"
+        android:text="@string/back_missing"
+        android:textColor="@color/white"
+        android:textSize="32sp" />
+
+    <LinearLayout
+        android:id="@+id/bonus_container_piggy"
+        android:layout_width="130dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="15dp"
+        android:background="@drawable/frame"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/score_label_piggy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="32sp" />
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/bonus" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/label_best_score_piggy"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_below="@+id/bonus_container_piggy"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/frame"
+        android:gravity="center"
+        android:text="Your best score"
+        android:textColor="@color/white"
+        android:textSize="32sp" />
+
+    <LinearLayout
+        android:id="@+id/container_life_add_piggy"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/label_best_score_piggy"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/frame"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="+1"
+                android:textColor="@color/white"
+                android:textSize="32sp" />
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/life" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_bought_life_add_piggy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn"
+            android:text="Buy"
+            android:textColor="@color/white"
+            android:textSize="32sp" />
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/reset_piggy_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:background="@drawable/btn"
+        android:text="@string/reset_missing"
+        android:textColor="@color/white"
+        android:textSize="32sp" />
+
+</RelativeLayout>

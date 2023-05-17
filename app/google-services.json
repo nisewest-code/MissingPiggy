@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "175827183519",
+    "project_id": "missing-piggy-e4d7b",
+    "storage_bucket": "missing-piggy-e4d7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175827183519:android:15a76ed62e650cb7077faa",
+        "android_client_info": {
+          "package_name": "com.missi.ngp.iggy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175827183519-c0oegu18mv0klljn6dstnbesn6t72a5s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP4VkSYgKqfl18UjX-0snxwsyihx90JxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175827183519-c0oegu18mv0klljn6dstnbesn6t72a5s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

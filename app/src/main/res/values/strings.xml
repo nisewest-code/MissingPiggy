@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Missing Piggy</string>
+    <string name="play_missing">Play</string>
+    <string name="settings_missing">Settings</string>
+    <string name="exit_missing">Exit</string>
+    <string name="back_missing">Back</string>
+    <string name="info_title">Info Game</string>
+    <string name="info_desccription_missing">Dodge the coal, collect relics, lives</string>
+    <string name="game_over_missing">Game Over</string>
+    <string name="game_over_desccription_missing">Your score: %d</string>
+    <string name="restart_missing">restart</string>
+    <string name="best_score_missing">Your Best Score: %d</string>
+    <string name="buy_missing">Buy %d bonus</string>
+    <string name="easy_missing">Easy</string>
+    <string name="hard_missing">Hard</string>
+    <string name="select_missing">Select</string>
+    <string name="reset_missing">Reset</string>
+    <string name="error_missing">Error</string>
+    <string name="error_bought">Not enough bonuses</string>
+</resources>
