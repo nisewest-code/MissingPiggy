@@ -75,7 +75,8 @@ class ActivityLauchMissingPiggy : AppCompatActivity() {
             } else {
                 Analytics.repearEnter()
                 Linked.link = firstUrl
-                generateLink()
+                wbCustom = WbCustom(this@ActivityLauchMissingPiggy, binding, listener)
+                wbCustom?.init()
             }
         }
     }
